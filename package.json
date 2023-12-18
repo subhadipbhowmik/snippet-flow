@@ -1,0 +1,409 @@
+{
+  "name": "snippet-flow",
+  "displayName": "Snippet Flow",
+  "description": "All Programming languages Code Snippet",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "abap",
+        "extensions": [
+          ".abap"
+        ]
+      },
+      {
+        "id": "bat",
+        "extensions": [
+          ".bat"
+        ]
+      },
+      {
+        "id": "bibtex",
+        "extensions": [
+          ".bib"
+        ]
+      },
+      {
+        "id": "clojure",
+        "extensions": [
+          ".clj",
+          ".cljs",
+          ".cljc",
+          ".edn"
+        ]
+      },
+      {
+        "id": "coffeescript",
+        "extensions": [
+          ".coffee"
+        ]
+      },
+      {
+        "id": "c",
+        "extensions": [
+          ".c"
+        ]
+      },
+      {
+        "id": "cpp",
+        "extensions": [
+          ".cpp",
+          ".h",
+          ".hpp"
+        ]
+      },
+      {
+        "id": "csharp",
+        "extensions": [
+          ".cs"
+        ]
+      },
+      {
+        "id": "dockercompose",
+        "extensions": [
+          ".yml",
+          ".yaml"
+        ]
+      },
+      {
+        "id": "css",
+        "extensions": [
+          ".css"
+        ]
+      },
+      {
+        "id": "cuda-cpp",
+        "extensions": [
+          ".cu",
+          ".cuh"
+        ]
+      },
+      {
+        "id": "diff",
+        "extensions": [
+          ".diff"
+        ]
+      },
+      {
+        "id": "dockerfile",
+        "extensions": [
+          "Dockerfile"
+        ]
+      },
+      {
+        "id": "fsharp",
+        "extensions": [
+          ".fs",
+          ".fsx",
+          ".fsi"
+        ]
+      },
+      {
+        "id": "git-commit and git-rebase",
+        "extensions": []
+      },
+      {
+        "id": "go",
+        "extensions": [
+          ".go"
+        ]
+      },
+      {
+        "id": "groovy",
+        "extensions": [
+          ".groovy",
+          ".gradle"
+        ]
+      },
+      {
+        "id": "handlebars",
+        "extensions": [
+          ".hbs",
+          ".handlebars"
+        ]
+      },
+      {
+        "id": "haml",
+        "extensions": [
+          ".haml"
+        ]
+      },
+      {
+        "id": "html",
+        "extensions": [
+          ".html",
+          ".htm"
+        ]
+      },
+      {
+        "id": "ini",
+        "extensions": [
+          ".ini"
+        ]
+      },
+      {
+        "id": "java",
+        "extensions": [
+          ".java"
+        ]
+      },
+      {
+        "id": "javascript",
+        "extensions": [
+          ".js"
+        ]
+      },
+      {
+        "id": "javascriptreact",
+        "extensions": [
+          ".jsx"
+        ]
+      },
+      {
+        "id": "json",
+        "extensions": [
+          ".json"
+        ]
+      },
+      {
+        "id": "jsonc",
+        "extensions": [
+          ".json"
+        ]
+      },
+      {
+        "id": "julia",
+        "extensions": [
+          ".jl"
+        ]
+      },
+      {
+        "id": "latex",
+        "extensions": [
+          ".tex"
+        ]
+      },
+      {
+        "id": "less",
+        "extensions": [
+          ".less"
+        ]
+      },
+      {
+        "id": "lua",
+        "extensions": [
+          ".lua"
+        ]
+      },
+      {
+        "id": "makefile",
+        "extensions": [
+          "Makefile",
+          ".mk",
+          ".mak"
+        ]
+      },
+      {
+        "id": "markdown",
+        "extensions": [
+          ".md"
+        ]
+      },
+      {
+        "id": "objective-c",
+        "extensions": [
+          ".m"
+        ]
+      },
+      {
+        "id": "objective-cpp",
+        "extensions": [
+          ".mm"
+        ]
+      },
+      {
+        "id": "perl and perl6",
+        "extensions": [
+          ".pl",
+          ".pm",
+          ".t"
+        ]
+      },
+      {
+        "id": "php",
+        "extensions": [
+          ".php"
+        ]
+      },
+      {
+        "id": "plaintext",
+        "extensions": [
+          ".txt"
+        ]
+      },
+      {
+        "id": "powershell",
+        "extensions": [
+          ".ps1",
+          ".psm1",
+          ".psd1"
+        ]
+      },
+      {
+        "id": "jade, pug",
+        "extensions": [
+          ".jade",
+          ".pug"
+        ]
+      },
+      {
+        "id": "python",
+        "extensions": [
+          ".py"
+        ]
+      },
+      {
+        "id": "r",
+        "extensions": [
+          ".r"
+        ]
+      },
+      {
+        "id": "razor",
+        "extensions": [
+          ".cshtml"
+        ]
+      },
+      {
+        "id": "ruby",
+        "extensions": [
+          ".rb",
+          ".rbw"
+        ]
+      },
+      {
+        "id": "rust",
+        "extensions": [
+          ".rs"
+        ]
+      },
+      {
+        "id": "scss",
+        "extensions": [
+          ".scss"
+        ]
+      },
+      {
+        "id": "sass",
+        "extensions": [
+          ".sass"
+        ]
+      },
+      {
+        "id": "shaderlab",
+        "extensions": [
+          ".shader"
+        ]
+      },
+      {
+        "id": "shellscript",
+        "extensions": [
+          ".sh",
+          ".bash",
+          ".zsh"
+        ]
+      },
+      {
+        "id": "slim",
+        "extensions": [
+          ".slim"
+        ]
+      },
+      {
+        "id": "sql",
+        "extensions": [
+          ".sql"
+        ]
+      },
+      {
+        "id": "stylus",
+        "extensions": [
+          ".styl"
+        ]
+      },
+      {
+        "id": "swift",
+        "extensions": [
+          ".swift"
+        ]
+      },
+      {
+        "id": "typescript",
+        "extensions": [
+          ".ts"
+        ]
+      },
+      {
+        "id": "typescriptreact",
+        "extensions": [
+          ".tsx"
+        ]
+      },
+      {
+        "id": "tex",
+        "extensions": [
+          ".tex"
+        ]
+      },
+      {
+        "id": "vb",
+        "extensions": [
+          ".vb"
+        ]
+      },
+      {
+        "id": "vue",
+        "extensions": [
+          ".vue"
+        ]
+      },
+      {
+        "id": "vue-html",
+        "extensions": [
+          ".vue"
+        ]
+      },
+      {
+        "id": "xml",
+        "extensions": [
+          ".xml"
+        ]
+      },
+      {
+        "id": "xsl",
+        "extensions": [
+          ".xsl"
+        ]
+      },
+      {
+        "id": "yaml",
+        "extensions": [
+          ".yaml",
+          ".yml"
+        ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "cpp",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
